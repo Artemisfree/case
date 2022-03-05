@@ -36,7 +36,7 @@ def parse(url):
 
 
 while True:
-    URL_TEMPLATE = 'https://aliexpress.ru/wholesale?catId=&SearchText='+input('search word:')
+    URL_TEMPLATE = 'https://aliexpress.ru/wholesale?catId=&SearchText='+input('search_word:')
 
     df = pd.DataFrame(data=parse(url=URL_TEMPLATE))
     df.to_csv(FILE_NAME)
