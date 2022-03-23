@@ -60,3 +60,4 @@ while True:
     df = pd.DataFrame(data=parse(url=URL_TEMPLATE))
     print(df)
     # df.to_csv(FILE_NAME)
+    #проверка
