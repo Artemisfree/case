@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 .case/
-text.txt/
+text.txt
